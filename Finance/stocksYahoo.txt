@@ -1,0 +1,12 @@
+# Finance
+
+## Python
+
+Google: Anaconda [ https://www.google.fi/webhp?sourceid=chrome-instant&ion=1&espv=2&ie=UTF-8#q=anaconda ]
+
+https://www.continuum.io/downloads
+
+
+## Tutorial
+
+https://ntguardian.wordpress.com/2016/09/19/introduction-stock-market-data-python-1/
