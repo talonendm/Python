@@ -10,3 +10,44 @@ https://www.continuum.io/downloads
 ## Tutorial
 
 https://ntguardian.wordpress.com/2016/09/19/introduction-stock-market-data-python-1/
+
+
+
+## Yahoo ticker downloader
+
+https://github.com/Benny-/Yahoo-ticker-symbol-downloader
+
+https://pypi.python.org/pypi/Yahoo-ticker-downloader/
+
+"
+Installation
+
+From python package manager (preferred):
+
+pip install Yahoo-ticker-downloader
+From source:
+
+python setup.py install
+Running
+
+The first param is one of the following types: stocks etf future index mutualfund currency warrant bond
+
+YahooTickerDownloader.py stocks
+The program takes several hours before any output is generated. The program supports suspending and resuming a download. Press CTRL+C to suspend download. Restart the program in the same working directory to resume downloading.
+
+Example of output:
+
+Ticker,Name,Exchange,categoryName,categoryNr
+ENZ,"Enzo Biochem Inc.",NYQ,"Medical Laboratories & Research",525
+ENZN,"Enzon Pharmaceuticals Inc.",NMS,Biotechnology,515
+ENZR,"Energizer Resources Inc.",PNK,,0
+EOAA.DE,"E.ON AG",GER,"Diversified Utilities",913
+KMX,"CarMax Inc.",NYQ,"Auto Dealerships",744
+KMY.MU,KIMBERLY-CLARK,MUN,"Personal Products",323
+KN1.DU,ECOUNION,DUS,"Business Software & Services",826
+KNCAY,"Konica Minolta Holdings Inc.",PNK,,0
+KND,"Kindred Healthcare Inc.",NYQ,"Long-Term Care Facilities",523
+KNDI,"Kandi Technologies, Corp",NGM,"Auto Manufacturers - Major",330
+...ect
+Depending on the type you are downloading, you will between 3.000 and 26.000 entries.
+"
