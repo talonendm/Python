@@ -15,5 +15,38 @@ Search for a coffee place
 
 client.venues.search(params={'query': 'coffee'})
 
-+ rather old blog post: http://aimotion.blogspot.fi/2011/12/playing-with-foursquare-api-with-python.html 
++ rather old blog post: 
+http://aimotion.blogspot.fi/2011/12/playing-with-foursquare-api-with-python.html 
+
+
+## API
+
+How Do You Want To Use the Foursquare API?
+
+Before you get started, you should create an app on Foursquare. This will give you a client ID and client secret which are needed for using the API. The documentation in this guide is meant to give a high-level conceptual overview of the Foursquare platform, help you grok its different parts and capabilities, and get started using the API’s most popular features. See our detailed documentation for a more in-depth reference. 
+
+- [ ] test api with getting started api
+
+https://developer.foursquare.com/start/search
+
+
+Search for Places in an Area
+What You Need To Do
+
+You’ll need your client ID and client secret to make a userless venue search or explore request ("venues" are what we call places on Foursquare). This is essentially the simplest way to interact with the Foursquare API—there’s no need to use OAuth. If you choose not to use a client library, you can directly make HTTP requests to the venues/search or venues/explore endpoints and get back a JSON response.
+
+In the HTTP request, you need to pass in your client ID, client secret, a version parameter, and any other parameters that the endpoint requires:
+
+https://api.foursquare.com/v2/venues/search
+  ?client_id=CLIENT_ID
+  &client_secret=CLIENT_SECRET
+  &v=20130815
+  &ll=40.7,-74
+  &query=sushi
+      
+      
+  - this works...
+
+- see, in T430 Ubuntu path for keys: documents/2016
+
 
