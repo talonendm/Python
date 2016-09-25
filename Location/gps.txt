@@ -1,0 +1,19 @@
+..
+# PIP
+
+http://stackoverflow.com/questions/4750806/how-do-i-install-pip-on-windows
+
+
+
+# FourSquare
+
+https://github.com/mLewisLogic/foursquare
+
+It looks pretty cool, and updatded last tim in 9/2016. See e.g.:
+
+Search for a coffee place
+
+client.venues.search(params={'query': 'coffee'})
+
++ rather old blog post: http://aimotion.blogspot.fi/2011/12/playing-with-foursquare-api-with-python.html 
+
